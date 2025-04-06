@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "magnetite",
+  "ingredient": "nightmare-mod:raw_magnetite",
+  "result": {
+    "id": "nightmare-mod:magnetite"
+  }
+}

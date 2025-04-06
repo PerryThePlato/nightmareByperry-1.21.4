@@ -1,6 +1,6 @@
 {
 "model": {
 "type" : "minecraft:model",
-"model": "nightmare-mod:item/raw_magnetite"
+"model": "nightmare-mod:item/magnetite_ore"
 }
 }
