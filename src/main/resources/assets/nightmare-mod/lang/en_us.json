@@ -1,4 +1,16 @@
 {
   "item.nightmare-mod.magnetite": "Magnetite",
-  "item.nightmare-mod.raw_magnetite": "Raw /Magnetite"
+  "item.nightmare-mod.raw_magnetite": "Raw Magnetite",
+
+  "block.nightmare-mod.magnetite_block": "Block of Magnetite",
+  "block.nightmare-mod.raw_magnetite_block": "Block of Raw Magnetite",
+
+  "block.nightmare-mod.magnetite_ore": "Magnetite Ore",
+
+  "item.nightmare-mod.nightmare_armor_trim_smithing_template": "Nightmare Smithing Template",
+
+  "trim_material.nightmare-mod.magnetite": "Magnetite Material",
+  "trim_pattern.nightmare-mod.nightmare": "Nightmare Armor Pattern",
+
+  "entity.nightmare-mod.lurker": "Lurker"
 }

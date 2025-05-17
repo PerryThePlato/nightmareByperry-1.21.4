@@ -32,6 +32,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modImplementation("net.fabricmc.fabric-api:fabric-data-generation-api-v1:${project.fabric_version}")
 	
 }
 
@@ -45,6 +46,7 @@ processResources {
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 21
+
 }
 
 java {
@@ -80,5 +82,9 @@ publishing {
 		// Notice: This block does NOT have the same function as the block in the top level.
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
+	}
+
+	tasks.named("processResources", Copy).configure {
+		duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	}
 }

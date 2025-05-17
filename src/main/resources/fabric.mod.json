@@ -23,14 +23,18 @@
 		],
 		"client": [
 			"net.perrytheplato.nightmare.NightmareModClient"
+		],
+		"registry_bootstrap": [
+			"net.perrytheplato.nightmare.world.ModConfiguredFeatures",
+			"net.perrytheplato.nightmare.world.ModPlacedFeatures"
 		]
 	},
 	"mixins": [
 		"nightmare-mod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.12",
-		"minecraft": "~1.21.4",
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
